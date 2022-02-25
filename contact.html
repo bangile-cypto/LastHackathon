@@ -46,5 +46,74 @@
             </center>
         </div>
     </section>
+
+    <section>
+      <div class="flex">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+          <div class="info">
+              <h3>vukubangene@gmail.com</h3>
+              <h3><i class="fab fa-linkedin"></i> linkedin.com/in/bangile-mahlamvu-3201441a5 </h3>
+              <h3><i class="fab fa-linkedin"></i> linkedin.com/in/bangile-mahlamvu-3201441a5 </h3>
+          </div>
+  
+      </div>
+      <form role="form" name="contact_form">
+        <div class="col-xs-4">
+          <div class="form-group">
+            <input type="text" class="form-control" id="input_name" required="" name="Name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="input_email" required="" name="Email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" id="input_location" required="" name="Subject" placeholder="Location">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <textarea class="form-control-text"  id="contact_comment" required="" name="Comment" placeholder="
+      
+      
+      
+      Details or comments?" rows="10"></textarea>
+          </div>
+        </div>
+      <div class="col-xs-2">
+          <div class="form-group">
+            <button id="submit_button"type="submit" onclick="submit_comment()">Submit</button>
+          </div>
+        </div>
+      </form>
+      <script>
+        function sendMail(str) {
+            var link = "mailto:bangilemahlamvu@gmail.com";
+            location.href = link;
+        }
+        function submit_comment() {
+        var name = document.forms["contact_form"]["Name"].value;
+        var Email = document.forms["contact_form"]["Email"].value;
+        var Subject = document.forms["contact_form"]["Subject"].value;
+        var Comment = document.forms["contact_form"]["Location"].value;
+        if((name !="") && (Email !="") && (Subject !="") && (Comment !="")) {
+           sendMail("HELLO");
+        }
+        }
+        </script>
+        <!-- <div class="contact-form">
+          <form action="" name="form" onsubmit="return validateForm()">
+
+            <input type="text" placeholder="name" name="answer_a" class="box" required="" id="name"> <br />
+            <input type="email" placeholder="email" name="answer_b" class="box" required="" id="email"> <br />
+            <input type="text" placeholder="Subject" name="answer_c" class="box" required="" id="subject"> <br />
+            <textarea name="answer_d" id="message" required="" cols="30" rows="10" class="box-message" placeholder="message"></textarea> <br />
+            <button type="submit" class="buton" onclick="send()"> Send</button>
+  
+        </form>
+        </div> -->
+      </div>
+      <script src="learnerships.js"></script>
+    </section>
+
   </body>
 </html>
