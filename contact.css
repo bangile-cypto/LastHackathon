@@ -6,7 +6,7 @@ body {
   .topnav h3{
       float: left;
       display: block;
-      color: #fff;
+      color: #000;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -16,8 +16,10 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #B2BEB5;
+    background-color: #F5FFF7;
     padding: 1.5rem;
+    position: fixed;
+    width: 100%;
   }
   
   
@@ -73,6 +75,54 @@ body {
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.781);
-    margin: 0;
+    padding-top: 10rem;
 }
+
+.flex{
+  display: flex;
+}
+
+.contact-form{
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.title{
+  margin: 1rem 0rem 1px 3rem;
+}
+
+.info{
+  margin: 2rem;
+}
+
+.form-control{
+  margin: 0.5rem;
+  width: 0rem;
+  height: 5rem;
+  background-color: #80800093;
+  border-style: none;
+  border-radius: 0.3rem;
+}
+
+.form-control-text{
+  margin: 0.5rem;
+  width: 40rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+button{ 
+  border-style: none; 
+  border-radius: 0.1rem;
+  background-color: #80800093;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  float: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
 
