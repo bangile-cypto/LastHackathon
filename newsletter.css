@@ -6,7 +6,7 @@ body {
   .topnav h3{
       float: left;
       display: block;
-      color: #fff;
+      color: #000;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -16,7 +16,7 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #B2BEB5;
+    background-color: #F5FFF7;
     padding: 1.5rem;
   }
   
@@ -69,3 +69,67 @@ body {
     }
   }
   
+  u{
+      color: #fcca46;
+      
+  }
+
+  .flex{
+      display: flex;
+  }
+
+  img{
+      width: 90%;
+      height: 80%;
+      margin-left: 4rem;
+      
+  }
+
+  .newsletter-firstdiv{
+      width: 80%;
+      margin: 2rem;
+      margin-left: 10rem;
+  }
+
+  .topic-one{
+      margin: 1rem;
+      background-color: #fcca46;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+  .topic-two{
+      margin: 1rem;
+      background-color: #fcca46;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+  .topic-three{
+      margin: 1rem;
+      background-color: #fcca46;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+
+  .newsletter-seconddiv{
+    margin-right: 10rem;
+  }
+
+  .underline{
+      height: 2rem;
+      width: 100%;
+      background-color: #002244;
+      top: 4rem;
+  }
+
+  button{
+      margin: 5rem;
+      padding: 1rem;
+      border: 1px solid #5b8e7d;
+      border-radius: 3rem;
+      background-color: #6d2e46;
+      bottom: 1rem;
+      position: unset;
+  }
